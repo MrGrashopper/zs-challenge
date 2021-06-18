@@ -1,0 +1,30 @@
+.users {
+    margin: 3rem 10%;
+}
+
+.users__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.users__row li {
+    list-style-type:none;
+    padding: 0.5rem 1rem;
+    width: 16rem;
+}
+
+.users__row button {
+    background: #7dabb2;
+    box-shadow: none;
+    border-style: none;
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 20px;
+}
+
+.users__row button:hover {
+    background: red;
+    cursor: pointer;
+    color: white;
+}

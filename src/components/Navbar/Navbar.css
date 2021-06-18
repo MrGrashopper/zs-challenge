@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    box-shadow: 0 2px 4px 2px rgb(86 86 87 / 30%);
+}
+
+.navbar a:-webkit-any-link {
+    text-decoration: none;
+    color: #565655;
+}
+
+.navbar__logo {
+    border-radius: 4px;
+}
+
+
+.navbar__logo  h1 {
+    text-align: center;
+    color: #565655;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.navbar__links {
+    font-size: 1rem;
+}

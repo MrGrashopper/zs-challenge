@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.home__register {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__register input, .home__register select, .home__register button {
+    width: 18rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.home__register select {
+    width: 10rem;
+}
+
+.home__register .button {
+    margin-top: 3rem;
+    background: #7dabb2;
+    box-shadow: none;
+    border-style: none;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.home__register .button:hover {
+    background: #375764;
+    cursor: pointer;
+    color: white;
+}
+
+.home__register h2 {
+    color: #565655;
+}
